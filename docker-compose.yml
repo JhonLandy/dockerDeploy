@@ -3,9 +3,10 @@ services:
     nginx:
         restart: always
         image: nginx
+        container_name: nginx
         ports: 
             - 8091:80
         volumes:
-            - ./nginx/conf.d:/etc/nginx/conf.d
-            - ./dist/:/var/www/html/
-            - ./images/:/images/
+            - ./nginx/conf:/etc/nginx/conf
+            - ./dist:/var/www/html
+            - ./images:/images
