@@ -8,5 +8,5 @@ services:
             - 8091:80
         volumes:
             - ./nginx/conf:/etc/nginx/conf
-            - ./dist:/var/www/html
+            - ./dist:/var/www/dist
             - ./images:/images
