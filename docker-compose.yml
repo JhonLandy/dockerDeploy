@@ -7,5 +7,5 @@ services:
             - "8091:80"
         volumes:
             - ./nginx/conf.d:/etc/nginx/conf.d 
-            - ./dist:/var/www/html/
+            - ./dist/:/var/www/html/
             - ./images/:/images/
