@@ -9,4 +9,4 @@ services:
         volumes:
             - ./nginx/conf.d/:/etc/nginx/conf.d
             - ./dist:/var/www/html
-            - ./dist/images:/images
+            - ./dist/images:/static
