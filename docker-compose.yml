@@ -5,7 +5,7 @@ services:
         image: nginx
         container_name: nginx
         ports: 
-            - 8091:80
+            - "8091:80"
         volumes:
             - ./nginx/conf.d:/etc/nginx/conf.d
             - ./vuepress:/var/www/html
