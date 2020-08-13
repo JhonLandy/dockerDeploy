@@ -7,6 +7,6 @@ services:
         ports: 
             - 8091:80
         volumes:
-            - ./nginx/conf:/etc/nginx/conf
+            - ./nginx/conf.d:/etc/nginx/conf.d
             - ./dist:/var/www/dist
             - ./images:/images
