@@ -7,6 +7,6 @@ services:
         ports:
             - 3389:80
         volumes:
-            - ./nginx/conf.d:/etc/nginx/conf.d
-            - ./webvue/:/var/www/html/
-            - ./webvue/images:/images
+            - ./nginx/conf.d/:/etc/nginx/conf.d
+            - ./dist:/var/www/html
+            - ./dist/images:/images
