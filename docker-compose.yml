@@ -7,6 +7,6 @@ services:
         ports: 
             - "8091:80"
         volumes:
-            - ./nginx/conf.d:/etc/nginx/conf.d
-            - ./vuepress:/var/www/html
+            - ./nginx/conf.d/:/etc/nginx/conf.d
+            - ./vuepress/:/var/www/html/
             - ./vuepress/images:/images
