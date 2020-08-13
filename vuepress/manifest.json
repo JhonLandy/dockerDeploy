@@ -1,0 +1,24 @@
+{
+  "name": "chenglang",
+  "short_name": "chenglang",
+  "start_url": "index.html",
+  "display": "standalone",
+  "background_color": "#2196f3",
+  "description": "技术源于生活术",
+  "theme_color": "blue",
+  "lang": "zh-cn",
+  "icons": [
+    {
+      "src": "./mine.jpg",
+      "type": "image/jpg"
+    }
+  ],
+  "related_applications": [
+    {
+      "platform": "web"
+    },
+    {
+      "platform": "play"
+    }
+  ]
+}

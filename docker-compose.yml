@@ -8,5 +8,4 @@ services:
             - 8091:80
         volumes:
             - ./nginx/conf.d:/etc/nginx/conf.d
-            - ./vuepress:/var/www/dist
-            - ./vuepress/images:/images
+            - ./html:/var/www/html
