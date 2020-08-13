@@ -4,6 +4,8 @@ services:
         restart: always
         image: nginx
         container_name: nginx
+        expose:
+            - 80
         ports:
             - 8091:80
         volumes:
