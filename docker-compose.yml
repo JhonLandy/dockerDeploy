@@ -8,5 +8,5 @@ services:
             - 3389:80
         volumes:
             - ./nginx/conf.d:/etc/nginx/conf.d
-            - ./vuepress/:/var/www/html/
-            - ./vuepress/images:/images
+            - ./webvue/:/var/www/html/
+            - ./webvue/images:/images
