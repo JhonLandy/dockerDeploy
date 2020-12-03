@@ -6,7 +6,9 @@ services:
         container_name: nginx
         ports:
             - 80:80
+            - 443:443
         volumes:
             - ./nginx/conf.d/:/etc/nginx/conf.d
+            - ../../ssl/cert/:/etc/nginx/cert
             - ./dist:/var/www/html
             - ./dist/images:/static
