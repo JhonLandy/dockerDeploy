@@ -9,6 +9,6 @@ services:
             - 80:80
         volumes:
             - ./nginx/conf.d/:/etc/nginx/conf.d
-            - ../../ssl/cert:/etc/nginx/cert
+            - ../../ssl/cert:/etc/nginx
             - ./dist:/var/www/html
             - ./dist/images:/static
