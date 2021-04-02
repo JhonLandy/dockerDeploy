@@ -10,6 +10,6 @@ services:
         volumes:
             - ./nginx/conf.d/:/etc/nginx/conf.d
             - ./nginx/logs/:/etc/nginx/logs
-            - ../../ssl/cert:/etc/nginx/cert
+            - ./nginx/cert:/etc/nginx/cert
             - ./dist:/var/www/html
             - ./dist/images:/static
