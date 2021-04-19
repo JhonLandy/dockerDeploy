@@ -1,6 +1,9 @@
 echo Deploy Project
 # docker-compose up -d --force-recreate --build
 
+# 保存服务器更改过的代码
+git add . && git commit -m update && git push
+
 # 获取最新版代码
 git pull
 
