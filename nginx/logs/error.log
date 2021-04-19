@@ -130,3 +130,5 @@
 2021/04/19 02:33:51 [error] 29#29: *865 open() "/var/www/html/ReportServer" failed (2: No such file or directory), client: 192.241.218.52, server: sunnychenglang.com, request: "GET /ReportServer HTTP/1.1", host: "123.60.23.28"
 2021/04/19 02:51:48 [error] 29#29: *120 open() "/var/www/html/login" failed (2: No such file or directory), client: 192.241.219.237, server: sunnychenglang.com, request: "GET /login HTTP/1.1", host: "123.60.23.28"
 2021/04/19 04:09:22 [error] 29#29: *136 open() "/var/www/html/actuator/health" failed (2: No such file or directory), client: 192.241.214.90, server: sunnychenglang.com, request: "GET /actuator/health HTTP/1.1", host: "123.60.23.28"
+2021/04/19 04:54:54 [error] 29#29: *181 open() "/var/www/html/owa/auth/logon.aspx" failed (2: No such file or directory), client: 192.241.214.90, server: sunnychenglang.com, request: "GET /owa/auth/logon.aspx?url=https%3a%2f%2f1%2fecp%2f HTTP/1.1", host: "123.60.23.28"
+2021/04/19 05:35:33 [error] 29#29: *205 open() "/var/www/html/robots.txt" failed (2: No such file or directory), client: 162.158.203.44, server: sunnychenglang.com, request: "GET /robots.txt HTTP/1.1", host: "sunnychenglang.com"
