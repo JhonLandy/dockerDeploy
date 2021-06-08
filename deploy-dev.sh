@@ -8,7 +8,7 @@ git add . && git commit -m update
 git pull
 
 # 提交记录
-git push -u origin master
+git push 
 
 # 强制重新编译容器
 docker-compose down
