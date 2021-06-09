@@ -13,4 +13,5 @@ services:
             - ./nginx/cert:/etc/nginx/cert
             - ./dist:/var/www/html
             - ./yaml:/var/www/html/vps
+            - ../../../etc/nginx/conf.d:/etc/nginx/conf.d
 #             - ./dist/images:/static
