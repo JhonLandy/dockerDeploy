@@ -5,8 +5,8 @@ services:
         image: nginx
         container_name: nginx
         ports:
-            - 6002:6002
-            - 6001:6001
+            - 6002:443
+            - 6001:80
         volumes:
             - ./nginx/conf.d/:/etc/nginx/conf.d
             - ./nginx/logs/:/etc/nginx/logs
