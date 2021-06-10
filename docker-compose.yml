@@ -7,7 +7,7 @@ services:
         ports:
             - 443:443
             - 80:80
-            - 37460：37460
+            - 37460:37460
         volumes:
             - ./nginx/conf.d/:/etc/nginx/conf.d
             - ./nginx/logs/:/etc/nginx/logs
