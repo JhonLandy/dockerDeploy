@@ -18,3 +18,4 @@ services:
             -  /etc/v2ray/:/etc/v2ray
             - /var/log/nginx/:/var/log/nginx
             - /usr/share/nginx/:/usr/share/nginx
+            - /root/yh/nginx/:/root/yh/nginx
