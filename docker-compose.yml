@@ -5,8 +5,12 @@ services:
         image: nginx
         container_name: nginx
         ports:
-            - 6002:443
-            - 6001:80
+#            - 6002:443
+#           - 6001:80
+            - 443:443
+            - 80:80
+            - 5212:5212
+            - 18809:18809
         volumes:
             - ./nginx/conf.d/:/etc/nginx/conf.d
             - ./nginx/logs/:/etc/nginx/logs
@@ -14,7 +18,8 @@ services:
             - ./dist:/var/www/html
             - ./yaml:/var/www/html/vps
 #             - ./dist/images:/static
-#             - /etc/v2ray/:/etc/v2ray
-#             - /var/log/nginx/:/var/log/nginx
-#             - /usr/share/nginx/:/usr/share/nginx
-#             - /root/yh/nginx/:/root/yh/nginx
+
+             - /etc/v2ray/:/etc/v2ray
+             - /var/log/nginx/:/var/log/nginx
+             - /usr/share/nginx/:/usr/share/nginx
+             - /root/yh/nginx/:/root/yh/nginx
