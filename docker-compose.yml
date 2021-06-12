@@ -18,8 +18,7 @@ services:
             - ./dist:/var/www/html
             - ./yaml:/var/www/html/vps
 #             - ./dist/images:/static
-
-             - /etc/v2ray/:/etc/v2ray
-             - /var/log/nginx/:/var/log/nginx
-             - /usr/share/nginx/:/usr/share/nginx
-             - /root/yh/nginx/:/root/yh/nginx
+            - /etc/v2ray/:/etc/v2ray
+            - /var/log/nginx/:/var/log/nginx
+            - /usr/share/nginx/:/usr/share/nginx
+            - /root/yh/nginx/:/root/yh/nginx
