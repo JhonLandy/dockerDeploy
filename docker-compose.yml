@@ -9,7 +9,7 @@ services:
 #           - 6001:80
             - 443:443
             - 80:80
-            - 5212:5212
+#            - 5212:5212
 #            - 18809:18809
         volumes:
             - ./nginx/conf.d/:/etc/nginx/conf.d
